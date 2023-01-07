@@ -1,0 +1,79 @@
+li {
+  list-style: none;
+}
+
+.residents {
+  display: flex;
+  flex-direction: row;
+  gap: 2rem;
+  width: 100vw;
+}
+
+.character {
+  box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.665);
+  display: flex;
+  gap: 0.5rem;
+  width: 450px;
+  height: 150px;
+  border-radius: 1rem;
+  background-color: #523d52;
+}
+
+img {
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+  border-radius: 1rem;
+}
+
+.information-character {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0.75rem 0;
+  justify-content: space-between;
+}
+
+.origin-information p {
+  font-size: 0.8rem;
+}
+
+.origin-information h4 {
+  font-size: 1rem;
+  font-weight: 600;
+}
+
+.episode-information p {
+  font-size: 0.8rem;
+}
+
+.episode-information h4 {
+  font-size: 1rem;
+  font-weight: 600;
+}
+
+.status {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 0.3rem;
+}
+
+.bg-red {
+  background-color: red;
+}
+
+.bg-green {
+  background-color: green;
+}
+
+.bg-gray {
+  background-color: black;
+}
+
+.status div {
+  width: 1rem;
+  height: 1rem;
+  border-radius: 50%;
+}
